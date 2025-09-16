@@ -4,18 +4,18 @@ Tests math expression support in the VSCode, GitHub and npmjs.com Markdown rende
 
 ## Simple Unicode
 
-- Normal (`√(x²+1)`) ⟶ √(x²+1)
+- Normal font (`√(x²+1)`) ⟶ √(x²+1)
 - Italic (`_√(x²+1)_`) ⟶ _√(x²+1)_
 - Bold (`**√(x²+1)**`) ⟶ **√(x²+1)**
 - Code (`` `√(x²+1)` ``) ⟶ `√(x²+1)`
   
-**Conclusion**: works everywhere.
+**Conclusion**: Works everywhere.
 
 ## HTML superscript
 
-- `√(x<sup>2</sup>+1)` ⟶ √(x<sup>2</sup>+1)
+- `√(x<sup>2</sup>+1)` ⟶ √(x<sup>2</sup>+1)  
 
-**Conclusion**: works everywhere.
+**Conclusion**: Works everywhere.
 
 ## R Markdown superscript
 
@@ -23,7 +23,7 @@ https://rmarkdown.rstudio.com/authoring_basics.html
 
 - `√(x^2^+1)` ⟶ √(x^2^+1)
 
-**Conclusion**: proprietary syntax, none of VSCode, GitHub or npmjs understand it.
+**Conclusion**: Proprietary syntax, none of VSCode, GitHub or npmjs understand it.
 
 ## Inline equation (`$...$`)
 
@@ -33,14 +33,14 @@ https://rmarkdown.rstudio.com/authoring_basics.html
 - `$\sqrt{x^2+1}$` ⟶ $\sqrt{x^2+1}$
 - `$\frac{1}{2}$` ⟶ $\frac{1}{2}$
 
-**Conclusion**: works in VSCode and on GitHub modulo minor vertical alignment
+**Conclusion**: Works in VSCode and on GitHub modulo minor vertical alignment
 issues in the latter.
 
 ## Inline equation, GitHub style (````$`...`$````)
 
 https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/writing-mathematical-expressions
 
-````$`\sqrt{x²+1}`$```` ⟶ $`\sqrt{x²+1}`$  
+- ````$`\sqrt{x²+1}`$```` ⟶ $`\sqrt{x²+1}`$  
 
 **Conclusion**: Only works on GitHub. VSCode renders the backticks
 verbatim. npmjs.com doesn't support such expressions at all.
@@ -91,7 +91,7 @@ equation. npmjs.com doesn't support such equations at all.
 \end{aligned}
 ```
 
-**Conclusion**: simple expressions work both in VSCode and on GitHub. The latter
+**Conclusion**: Simple expressions work both in VSCode and on GitHub. The latter
 struggles with the equation alignment.
 
 ## MathML
@@ -172,7 +172,7 @@ struggles with the equation alignment.
 </mrow>
 </math>
 
-**Conclusion**: only works in VSCode.
+**Conclusion**: Only works in VSCode.
 
 ## CodeCogs
 
@@ -182,7 +182,7 @@ latex.codecogs.com.
 
 - Inline formula: ![inline formula](https://latex.codecogs.com/svg.image?\sqrt{x^2&plus;1})
 - Inline fraction, 5 pt: ![inline fraction](https://latex.codecogs.com/svg.image?\tiny&space;\frac{1}{2})
-- Vertical centering with `<span style="vertical-align: middle">`: <span style="vertical-align: middle">![inline fraction](https://latex.codecogs.com/svg.image?\tiny&space;\frac{1}{2})</span>  
+- Vertical centering with `<span style="vertical-align: middle">`: <span style="vertical-align: middle">![inline fraction](https://latex.codecogs.com/svg.image?\tiny&space;\frac{1}{2})</span>
 
-**Conclusion**: works, but vertical alignment is off in most cases.
+**Conclusion**: Works, but vertical alignment is off in most cases.
 GitHub and npmjs don't support fine tuning it with CSS.
