@@ -1,6 +1,7 @@
-# Math in Markdown rendering tests
+# Math in Markdown - rendering tests
 
-Tests math expression support in the VSCode, GitHub and npmjs.com Markdown renderers.
+This document tests math expression support in the Markdown renderers of
+VS Code, GitHub, and npmjs.com.
 
 ## Simple Unicode
 
@@ -23,7 +24,7 @@ https://rmarkdown.rstudio.com/authoring_basics.html
 
 - `√(x^2^+1)` ⟶ √(x^2^+1)
 
-**Conclusion**: Proprietary syntax, none of VSCode, GitHub or npmjs understand it.
+**Conclusion**: Proprietary syntax; unsupported by VS Code, GitHub, and npmjs.
 
 ## Inline equation (`$...$`)
 
@@ -33,8 +34,9 @@ https://rmarkdown.rstudio.com/authoring_basics.html
 - `$\sqrt{x^2+1}$` ⟶ $\sqrt{x^2+1}$
 - `$\frac{1}{2}$` ⟶ $\frac{1}{2}$
 
-**Conclusion**: Works in VSCode and on GitHub modulo minor vertical alignment
-issues in the latter.
+**Conclusion**: Works in VS Code and GitHub, with minor vertical alignment
+issues on GitHub.
+
 
 ## Inline equation, GitHub style (````$`...`$````)
 
@@ -42,8 +44,8 @@ https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-f
 
 - ````$`\sqrt{x²+1}`$```` ⟶ $`\sqrt{x²+1}`$  
 
-**Conclusion**: Only works on GitHub. VSCode renders the backticks
-verbatim. npmjs.com doesn't support such expressions at all.
+**Conclusion**: Works only on GitHub. VS Code renders the backticks literally.
+npmjs does not support it at all.
 
 ## Display equation (`$$...$$`)
 
@@ -58,8 +60,8 @@ $$ \frac{x+1}{2} $$
 `$$\frac{x+1}{2}$$` (no blank line before expression)
 $$\frac{x+1}{2}$$
 
-**Conclusion**: Works in VSCode. GitHub requires a blank line before the
-equation. npmjs.com doesn't support such equations at all.
+**Conclusion**: Works in VS Code. On GitHub, a blank line is required before
+the equation. Not supported on npmjs.
 
 ## Math block (<code>```math</code>)
 
@@ -91,8 +93,8 @@ equation. npmjs.com doesn't support such equations at all.
 \end{aligned}
 ```
 
-**Conclusion**: Simple expressions work both in VSCode and on GitHub. The latter
-struggles with the equation alignment.
+**Conclusion:** Simple expressions render correctly in both VS Code and GitHub.
+GitHub struggles with aligned equations.
 
 ## MathML
 
@@ -184,5 +186,5 @@ latex.codecogs.com.
 - Inline fraction, 5 pt: ![inline fraction](https://latex.codecogs.com/svg.image?\tiny&space;\frac{1}{2})
 - Vertical centering with `<span style="vertical-align: middle">`: <span style="vertical-align: middle">![inline fraction](https://latex.codecogs.com/svg.image?\tiny&space;\frac{1}{2})</span>
 
-**Conclusion**: Works, but vertical alignment is off in most cases.
-GitHub and npmjs don't support fine tuning it with CSS.
+**Conclusion**: Works, but vertical alignment is often off.
+GitHub and npmjs don’t allow fine-tuning with CSS.
