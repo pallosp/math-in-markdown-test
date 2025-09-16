@@ -1,6 +1,6 @@
 {
   "name": "math-in-markdown-test",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Tests math expression support in Markdown documents",
   "homepage": "https://github.com/pallosp/math-in-markdown-test#readme",
   "bugs": {
