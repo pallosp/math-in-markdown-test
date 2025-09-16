@@ -24,9 +24,14 @@ https://rmarkdown.rstudio.com/authoring_basics.html
 - `$\sqrt{x²+1}$` ⟶ $\sqrt{x²+1}$
 - `$\sqrt{x^2+1}$` ⟶ $\sqrt{x^2+1}$
 
-## Display equation (`$$ ... $$`)
+## Display equation (`$$...$$`)
+
+`$$\sqrt{x^2+1}$$`
+
+$$\sqrt{x^2+1}$$
 
 `$$ \sqrt{x^2+1} $$`
+
 $$ \sqrt{x^2+1} $$
 
 ## Math block (<code>```math</code>)
