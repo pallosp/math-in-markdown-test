@@ -58,3 +58,21 @@ $$\frac{x+1}{2}$$
 ```math
 \sqrt{x^2+1}
 ```
+
+### Aligned equations
+
+````
+```math
+\begin{aligned}
+  x+1 &= y \\
+  x &= y-1
+\end{aligned}
+```
+````
+
+```math
+\begin{aligned}
+  x+1 &= y \\
+  x &= y-1
+\end{aligned}
+```
