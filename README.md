@@ -17,19 +17,19 @@ https://rmarkdown.rstudio.com/authoring_basics.html
 
 - `√(x^2^+1)` ⟶ √(x^2^+1)
 
-## Inline equation (\$...\$)
+## Inline equation (`$...$`)
 
 - `$√(x²+1)$` ⟶ $√(x²+1)$
 - `$√(x^2+1)$` ⟶ $√(x^2+1)$
 - `$\sqrt{x²+1}$` ⟶ $\sqrt{x²+1}$
 - `$\sqrt{x^2+1}$` ⟶ $\sqrt{x^2+1}$
 
-## Display equation (\$\$ ... \$\$)
+## Display equation (`$$ ... $$`)
 
 `$$ \sqrt{x^2+1} $$`
 $$ \sqrt{x^2+1} $$
 
-## Math block (```math)
+## Math block (<code>```math</code>)
 
 ````
 ```math
