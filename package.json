@@ -13,5 +13,11 @@
   "license": "MIT",
   "author": "Péter Pallos",
   "type": "module",
-  "main": "dummy.js"
+  "main": "dummy.js",
+  "keywords": [
+    "math",
+    "Markdown",
+    "MathML",
+    "LaTeX"
+  ]
 }
