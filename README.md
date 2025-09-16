@@ -24,6 +24,12 @@ https://rmarkdown.rstudio.com/authoring_basics.html
 - `$\sqrt{x²+1}$` ⟶ $\sqrt{x²+1}$
 - `$\sqrt{x^2+1}$` ⟶ $\sqrt{x^2+1}$
 
+## Inline equation, GitHub style (````$`...`$````)
+
+https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/writing-mathematical-expressions
+
+- ````$`\sqrt{x²+1}`$```` ⟶ $`\sqrt{x²+1}`$
+
 ## Display equation (`$$...$$`)
 
 `$$\sqrt{x^2+1}$$`
