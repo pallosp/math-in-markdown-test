@@ -25,6 +25,7 @@ https://rmarkdown.rstudio.com/authoring_basics.html
 - `$√(x^2+1)$` ⟶ $√(x^2+1)$
 - `$\sqrt{x²+1}$` ⟶ $\sqrt{x²+1}$
 - `$\sqrt{x^2+1}$` ⟶ $\sqrt{x^2+1}$
+- `$\frac{1}{2}$` ⟶ $\frac{1}{2}$
 
 ## Inline equation, GitHub style (````$`...`$````)
 
@@ -35,16 +36,16 @@ https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-f
 
 ## Display equation (`$$...$$`)
 
-`$$\sqrt{x^2+1}$$`
+`$$\frac{x+1}{2}$$`
 
-$$\sqrt{x^2+1}$$
+$$\frac{x+1}{2}$$
 
-`$$ \sqrt{x^2+1} $$`
+`$$ \frac{x+1}{2} $$`
 
-$$ \sqrt{x^2+1} $$
+$$ \frac{x+1}{2} $$
 
-`$$\sqrt{x^2+1}$$` (no blank line before equation)
-$$\sqrt{x^2+1}$$
+`$$\frac{x+1}{2}$$` (no blank line before expression)
+$$\frac{x+1}{2}$$
 
 ## Math block (<code>```math</code>)
 
