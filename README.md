@@ -1,5 +1,8 @@
 # Math in Markdown - rendering tests
 
+[![NPM package](https://img.shields.io/npm/v/math-in-markdown-test.svg?style=flat)](https://www.npmjs.com/package/math-in-markdown-test)
+[![MIT license](https://img.shields.io/badge/license-MIT-brightgreen.svg)](https://opensource.org/licenses/MIT)
+
 This document tests math expression support in the Markdown renderers of
 VS Code, GitHub, and npmjs.com.
 
