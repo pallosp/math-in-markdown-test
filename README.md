@@ -30,7 +30,8 @@ https://rmarkdown.rstudio.com/authoring_basics.html
 
 https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/writing-mathematical-expressions
 
-- ````$`\sqrt{x²+1}`$```` ⟶ $`\sqrt{x²+1}`$
+- ````$`\sqrt{x²+1}`$```` ⟶ $`\sqrt{x²+1}`$  
+  As of Sep 2025 VSCode renders the backticks verbatim.
 
 ## Display equation (`$$...$$`)
 
