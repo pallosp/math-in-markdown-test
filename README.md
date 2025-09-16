@@ -1,5 +1,7 @@
 # Math in Markdown rendering tests
 
+Tests math expression support in the VSCode, GitHub and npmjs.com Markdown renderers
+
 ## Simple Unicode
 
 - Normal (`√(x²+1)`) ⟶ √(x²+1)
