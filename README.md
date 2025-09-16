@@ -34,6 +34,9 @@ $$\sqrt{x^2+1}$$
 
 $$ \sqrt{x^2+1} $$
 
+`$$\sqrt{x^2+1}$$ (no blank line before equation)`
+$$\sqrt{x^2+1}$$
+
 ## Math block (<code>```math</code>)
 
 ````
