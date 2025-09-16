@@ -182,9 +182,9 @@ The expressions below are SVGs created with the
 [CodeCogs equation editor](https://editor.codecogs.com/) and embedded from
 latex.codecogs.com.
 
-- Inline formula: ![inline formula](https://latex.codecogs.com/svg.image?\sqrt{x^2&plus;1})
-- Inline fraction, 5 pt: ![inline fraction](https://latex.codecogs.com/svg.image?\tiny&space;\frac{1}{2})
-- Vertical centering with `<span style="vertical-align: middle">`: <span style="vertical-align: middle">![inline fraction](https://latex.codecogs.com/svg.image?\tiny&space;\frac{1}{2})</span>
+- Inline formula: ![inline formula](https://latex.codecogs.com/svg.image?\inline&space;\sqrt{x^2&plus;1})
+- Inline fraction: ![inline fraction](https://latex.codecogs.com/svg.image?\inline&space;\frac{1}{2})
+- Vertical centering with `<span style="vertical-align: middle">`: <span style="vertical-align: middle">![inline fraction](https://latex.codecogs.com/svg.image?\inline&space;\frac{1}{2})</span>
 
 **Conclusion**: Works, but vertical alignment is often off.
 GitHub and npmjs don’t allow fine-tuning with CSS.
