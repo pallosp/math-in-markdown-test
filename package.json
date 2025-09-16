@@ -1,0 +1,17 @@
+{
+  "name": "math-in-markdown-test",
+  "version": "1.0.0",
+  "description": "Tests math expression support in Markdown documents",
+  "homepage": "https://github.com/pallosp/math-in-markdown-test#readme",
+  "bugs": {
+    "url": "https://github.com/pallosp/math-in-markdown-test/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pallosp/math-in-markdown-test.git"
+  },
+  "license": "MIT",
+  "author": "Péter Pallos",
+  "type": "module",
+  "main": "dummy.js"
+}
