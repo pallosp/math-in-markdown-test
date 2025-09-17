@@ -36,6 +36,7 @@ https://rmarkdown.rstudio.com/authoring_basics.html
 - `$\sqrt{x²+1}$` ⟶ $\sqrt{x²+1}$
 - `$\sqrt{x^2+1}$` ⟶ $\sqrt{x^2+1}$
 - `$\frac{1}{2}$` ⟶ $\frac{1}{2}$
+- `$\begin{bmatrix}1 & 3\end{bmatrix}^T$` ⟶ $\begin{bmatrix}1 & 3\end{bmatrix}^T$
 
 **Conclusion**: Works in VS Code and GitHub, with minor vertical alignment
 issues on GitHub.
