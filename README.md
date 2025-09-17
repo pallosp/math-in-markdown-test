@@ -182,7 +182,7 @@ GitHub struggles with aligned equations.
 </mrow>
 </math>
 
-**Conclusion**: Only works in VSCode.
+**Conclusion**: Only works in VS Code.
 
 ## CodeCogs
 
