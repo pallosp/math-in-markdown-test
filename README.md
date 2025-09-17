@@ -50,7 +50,8 @@ https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-f
 
 - ````$`\sqrt{x²+1}`$```` ⟶ $`\sqrt{x²+1}`$
 - ````$`ℚ \subset \mathbb{R}`$```` ⟶ $`ℚ \subset \mathbb{R}`$
-- ````$`\begin{bmatrix}1 & 3\end{bmatrix}^T`$```` ⟶ $`\begin{bmatrix}1 & 3\end{bmatrix}^T`$
+- ````$`\begin{bmatrix} 1 & 3 \end{bmatrix}^T`$```` ⟶ $`\begin{bmatrix} 1 & 3 \end{bmatrix}^T`$
+- ````$`\begin{bmatrix} 1 \\ 3 \end{bmatrix}`$```` ⟶ $`\begin{bmatrix} 1 \\ 3 \end{bmatrix}`$
 
 **Conclusion**: Works only on GitHub. VS Code renders the backticks literally.
 npmjs does not support it at all.
