@@ -42,7 +42,9 @@ vertical alignment issues on the latter. The way GitHub renders `\mathbb` works
 in Safari but not in Chrome. It fails to parse inline expressions with matrices
 unless they're between ````$` `$```` delimiters.
 
-Discussion: [Stack Overflow](https://stackoverflow.com/questions/79433588/how-can-i-represent-mathbbcharacter-in-github-markdown)
+Discussions on Stack Overflow:
+[mathbb](https://stackoverflow.com/questions/79433588),
+[matrices](https://stackoverflow.com/questions/74203840)
 
 ## Inline equations, GitHub style (````$`...`$````)
 
