@@ -38,11 +38,11 @@ https://rmarkdown.rstudio.com/authoring_basics.html
 - `$\begin{bmatrix}1 & 3\end{bmatrix}^T$` ⟶ $\begin{bmatrix}1 & 3\end{bmatrix}^T$
 
 **Conclusion**: Simple expressions work in VS Code and GitHub with minor
-vertical alignment issues on the latter. GitHub doesn't correctly render
-`\mathbb`, and fails to parse complex formulae unless they're between
-````$` `$```` delimiters.
+vertical alignment issues on the latter. The way GitHub renders `\mathbb` works
+in Safari but not in Chrome. It fails to parse complex formulae unless they're
+between ````$` `$```` delimiters.
 
-Relevant discussion: [Stack Overflow](https://stackoverflow.com/questions/79433588/how-can-i-represent-mathbbcharacter-in-github-markdown)
+Discussion: [Stack Overflow](https://stackoverflow.com/questions/79433588/how-can-i-represent-mathbbcharacter-in-github-markdown)
 
 ## Inline equations, GitHub style (````$`...`$````)
 
