@@ -37,21 +37,13 @@ https://rmarkdown.rstudio.com/authoring_basics.html
 - `$ℚ \subset \mathbb{R}$` ⟶ $ℚ \subset \mathbb{R}$
 - `$\begin{bmatrix}1 & 3\end{bmatrix}^T$` ⟶ $\begin{bmatrix}1 & 3\end{bmatrix}^T$
 
-$\begin{bmatrix}1 & 3\end{bmatrix}$
+$\begin{matrix}1 & 3\end{matrix}^T$
 
-$\begin{bmatrix}1\end{bmatrix}^T$
-
-$\begin{bmatrix}1 \& 3\end{bmatrix}^T$
-
-$\begin{bmatrix}1 &amp; 3\end{bmatrix}^T$
-
-$ \begin{bmatrix} 1 \end{bmatrix} $
-$ \\begin{bmatrix} 1 \\end{bmatrix} $
-$ \begin\{bmatrix\} 1 \end\{bmatrix\} $
+$\begin{pmatrix}1 & 3\end{pmatrix}^T$
 
 **Conclusion**: Simple expressions work in VS Code and GitHub with minor
 vertical alignment issues on the latter. The way GitHub renders `\mathbb` works
-in Safari but not in Chrome. It fails to parse complex formulae unless they're
+in Safari but not in Chrome. It fails to parse matrices unless they're
 between ````$` `$```` delimiters.
 
 Discussion: [Stack Overflow](https://stackoverflow.com/questions/79433588/how-can-i-represent-mathbbcharacter-in-github-markdown)
