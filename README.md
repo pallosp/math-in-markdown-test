@@ -29,29 +29,31 @@ https://rmarkdown.rstudio.com/authoring_basics.html
 
 **Conclusion**: Proprietary syntax; unsupported by VS Code, GitHub, and npmjs.
 
-## Inline equation (`$...$`)
+## Inline equations (`$...$`)
 
 - `$√(x²+1)$` ⟶ $√(x²+1)$
 - `$√(x^2+1)$` ⟶ $√(x^2+1)$
 - `$\sqrt{x²+1}$` ⟶ $\sqrt{x²+1}$
 - `$\sqrt{x^2+1}$` ⟶ $\sqrt{x^2+1}$
 - `$\frac{1}{2}$` ⟶ $\frac{1}{2}$
+- `$ℚ \subset \mathbb{R}$` ⟶ $ℚ \subset \mathbb{R}$
 - `$\begin{bmatrix}1 & 3\end{bmatrix}^T$` ⟶ $\begin{bmatrix}1 & 3\end{bmatrix}^T$
 
-**Conclusion**: Works in VS Code and GitHub, with minor vertical alignment
-issues on GitHub.
+**Conclusion**: Simple expressions work in VS Code and GitHub with minor
+vertical alignment issues on the latter. GitHub fails to parse complex formulae.
 
-
-## Inline equation, GitHub style (````$`...`$````)
+## Inline equations, GitHub style (````$`...`$````)
 
 https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/writing-mathematical-expressions
 
-- ````$`\sqrt{x²+1}`$```` ⟶ $`\sqrt{x²+1}`$  
+- ````$`\sqrt{x²+1}`$```` ⟶ $`\sqrt{x²+1}`$
+- ````$`ℚ \subset \mathbb{R}`$```` ⟶ $`ℚ \subset \mathbb{R}`$
+- ````$`\begin{bmatrix}1 & 3\end{bmatrix}^T`$```` ⟶ $`\begin{bmatrix}1 & 3\end{bmatrix}^T`$
 
 **Conclusion**: Works only on GitHub. VS Code renders the backticks literally.
 npmjs does not support it at all.
 
-## Block equation (`$$...$$`)
+## Block equations (`$$...$$`)
 
 `$$\frac{x+1}{2}$$`
 
@@ -67,7 +69,7 @@ $$\frac{x+1}{2}$$
 **Conclusion**: Works in VS Code. On GitHub, a blank line is required before
 the equation. Not supported on npmjs.
 
-## Math block (<code>```math</code>)
+## Math blocks (<code>```math</code>)
 
 ````
 ```math
