@@ -32,15 +32,17 @@ https://rmarkdown.rstudio.com/authoring_basics.html
 ## Inline equations (`$...$`)
 
 - `$√(x²+1)$` ⟶ $√(x²+1)$
-- `$√(x^2+1)$` ⟶ $√(x^2+1)$
-- `$\sqrt{x²+1}$` ⟶ $\sqrt{x²+1}$
 - `$\sqrt{x^2+1}$` ⟶ $\sqrt{x^2+1}$
 - `$\frac{1}{2}$` ⟶ $\frac{1}{2}$
 - `$ℚ \subset \mathbb{R}$` ⟶ $ℚ \subset \mathbb{R}$
 - `$\begin{bmatrix}1 & 3\end{bmatrix}^T$` ⟶ $\begin{bmatrix}1 & 3\end{bmatrix}^T$
 
 **Conclusion**: Simple expressions work in VS Code and GitHub with minor
-vertical alignment issues on the latter. GitHub fails to parse complex formulae.
+vertical alignment issues on the latter. GitHub doesn't correctly render
+`\mathbb`, and fails to parse complex formulae unless they're between
+````$` `$```` delimiters.
+
+Relevant discussion: [Stack Overflow](https://stackoverflow.com/questions/79433588/how-can-i-represent-mathbbcharacter-in-github-markdown)
 
 ## Inline equations, GitHub style (````$`...`$````)
 
