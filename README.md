@@ -39,8 +39,8 @@ https://rmarkdown.rstudio.com/authoring_basics.html
 
 **Conclusion**: Simple expressions work in VS Code and GitHub with minor
 vertical alignment issues on the latter. The way GitHub renders `\mathbb` works
-in Safari but not in Chrome. It fails to parse matrices unless they're between
-````$` `$```` delimiters.
+in Safari but not in Chrome. It fails to parse inline expressions with matrices
+unless they're between ````$` `$```` delimiters.
 
 Discussion: [Stack Overflow](https://stackoverflow.com/questions/79433588/how-can-i-represent-mathbbcharacter-in-github-markdown)
 
@@ -99,6 +99,24 @@ the equation. Not supported on npmjs.
   x+1 &= y \\
   x &= y-1
 \end{aligned}
+```
+
+**Matrices**
+
+````
+```math
+\begin{bmatrix}
+  1 - \lambda & 2 \\
+  3           & 4 - \lambda 
+\end{bmatrix}
+```
+````
+
+```math
+\begin{bmatrix}
+  1 - \lambda & 2 \\
+  3           & 4 - \lambda 
+\end{bmatrix}
 ```
 
 **Conclusion:** Simple expressions render correctly in both VS Code and GitHub.
