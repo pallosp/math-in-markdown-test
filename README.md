@@ -50,7 +50,7 @@ https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-f
 **Conclusion**: Works only on GitHub. VS Code renders the backticks literally.
 npmjs does not support it at all.
 
-## Display equation (`$$...$$`)
+## Block equation (`$$...$$`)
 
 `$$\frac{x+1}{2}$$`
 
